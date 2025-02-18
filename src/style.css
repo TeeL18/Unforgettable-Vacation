@@ -20,17 +20,18 @@ hr {
   opacity: 0.2;
 }
 
-p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+.activites p {
+  font-family: "times new roman(serif)";
 }
 
 a {
-  color: greenyellow;
+  color: white;
 }
 
 footer {
   text-align: center;
-  color: white;
+  color: black;
+  margin-top: 60px;
 }
 
 .container {
@@ -39,6 +40,7 @@ footer {
   padding: 20px;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
@@ -49,26 +51,29 @@ footer {
   padding: 30px;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
-.food-and-culture {
+.food-community {
   margin: 120px 0 30px 50px;
   max-width: 400px;
   padding: 30px;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
-.island {
+.island-trip {
   margin: 120px 50px 30px auto;
   max-width: 400px;
   padding: 30px;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
@@ -79,6 +84,7 @@ footer {
   padding: 30px;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
@@ -105,8 +111,7 @@ footer {
 
 .activites,
 .food-and-culture,
-.island,
-.community {
+.island-trip {
   max-width: 400px;
   padding: 30px;
   background-color: white;
@@ -115,11 +120,11 @@ footer {
 }
 
 .left-side .activites,
-.left-side .food-and-culture {
+.left-side .food-community {
   margin-left: 50px;
 }
 
-.island-and-community {
+.island-trip {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,6 +133,7 @@ footer {
   padding: 30px;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin: 50px auto 0 auto; /* Centers the box horizontally */
 }
