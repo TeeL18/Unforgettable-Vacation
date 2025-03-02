@@ -16,12 +16,14 @@ h2 {
   color: yellowgreen;
 }
 
-hr {
-  opacity: 0.2;
+h3,
+h4:hover {
+  background: white;
+  color: rgb(47, 64, 255);
 }
 
-.activites p {
-  font-family: "times new roman(serif)";
+hr {
+  opacity: 0.2;
 }
 
 a {
@@ -150,11 +152,4 @@ button {
   transition: all 200ms ease-in-out;
   margin-block-start: 3em;
   margin-block-end: 3em;
-}
-
-button:hover {
-  transition: all 200ms ease-in-out;
-  background: white;
-  color: greenyellow;
-  cursor: pointer;
 }
