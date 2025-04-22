@@ -92,7 +92,7 @@ footer {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
-.island-trip {
+/*.island-trip {
   margin: 120px 50px 30px auto;
   max-width: 400px;
   padding: 30px;
@@ -101,7 +101,7 @@ footer {
   border: 2px solid black;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-}
+}*/
 
 .page-layout {
   display: flex;
