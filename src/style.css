@@ -80,9 +80,9 @@ footer {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
-.community {
+.landscape {
   margin: 120px 0 30px 50px;
-  max-width: 400px;
+  max-width: 300px;
   padding: 30px;
   background-color: white;
   border-radius: 10px;
@@ -91,17 +91,6 @@ footer {
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
-
-/*.island-trip {
-  margin: 120px 50px 30px auto;
-  max-width: 400px;
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
-  border: 2px solid black;
-  margin-bottom: 30px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-}*/
 
 .page-layout {
   display: flex;
@@ -113,12 +102,12 @@ footer {
 }
 
 .food,
-.community {
+.landscape {
   width: 100%;
   margin-left: 50px;
 }
 
-.food-community {
+.food-landscape {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -142,7 +131,7 @@ footer {
 .activites,
 .activites-two,
 .food,
-.community {
+.landscape {
   width: 100%;
   flex-grow: 1;
 }
@@ -150,7 +139,7 @@ footer {
 .activites,
 .activites-two,
 .food,
-.community,
+.landscape,
 .island-trip {
   max-width: 400px;
   padding: 30px;
@@ -160,7 +149,7 @@ footer {
 }
 
 .left-side .activites,
-.left-side .food .community {
+.left-side .food .landscape {
   margin-left: 50px;
 }
 
