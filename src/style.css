@@ -180,3 +180,101 @@ button {
   margin-block-start: 3em;
   margin-block-end: 3em;
 }
+
+img {
+  width: 150px;
+  margin: 0;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-top: 20px;
+  position: relative;
+  overflow: visible;
+}
+.botanic-gardens {
+  width: 130px;
+  border-radius: 10px;
+  filter: contrast(90%);
+  transform: scale(1);
+  rotate: 360deg;
+}
+
+.botanic-gardens:hover {
+  filter: contrast(90%);
+  transform: scale(2.5);
+  rotate: 360deg;
+  z-index: 10;
+}
+
+.food-image {
+  width: 130px;
+  border-radius: 10px;
+  filter: contrast(90%);
+  transform: scale(1);
+  rotate: 360deg;
+}
+
+.food-image:hover {
+  filter: contrast(90%);
+  transform: scale(2.5);
+  rotate: 360deg;
+  z-index: 10;
+}
+
+.darkview-falls {
+  width: 130px;
+  border-radius: 10px;
+  filter: contrast(90%);
+  transform: scale(1);
+  rotate: 360deg;
+}
+
+.darkview-falls:hover {
+  filter: contrast(90%);
+  transform: scale(2.2);
+  rotate: 360deg;
+  z-index: 10;
+}
+
+.landscape-image {
+  width: 130px;
+  border-radius: 10px;
+  filter: contrast(90%);
+  transform: scale(1);
+  rotate: 360deg;
+}
+
+.landscape-image:hover {
+  filter: contrast(90%);
+  transform: scale(2.5);
+  rotate: 360deg;
+  z-index: 10;
+}
+
+.islandtrip-image {
+  width: 130px;
+  border-radius: 10px;
+  filter: contrast(90%);
+  transform: scale(1);
+  rotate: 360deg;
+}
+
+.islandtrip-image:hover {
+  filter: contrast(90%);
+  transform: scale(2.5);
+  rotate: 360deg;
+  z-index: 10;
+}
