@@ -209,14 +209,14 @@ img {
   border-radius: 10px;
   filter: contrast(90%);
   transform: scale(1);
-  rotate: 360deg;
+  z-index: 1;
 }
 
 .botanic-gardens:hover {
   filter: contrast(90%);
   transform: scale(2.5);
-  rotate: 360deg;
   z-index: 10;
+  transition: transform 0.5s ease;
 }
 
 .food-image {
@@ -224,13 +224,12 @@ img {
   border-radius: 10px;
   filter: contrast(90%);
   transform: scale(1);
-  rotate: 360deg;
 }
 
 .food-image:hover {
   filter: contrast(90%);
   transform: scale(2.5);
-  rotate: 360deg;
+  transition: transform 0.5s ease;
   z-index: 10;
 }
 
@@ -239,13 +238,12 @@ img {
   border-radius: 10px;
   filter: contrast(90%);
   transform: scale(1);
-  rotate: 360deg;
 }
 
 .darkview-falls:hover {
   filter: contrast(90%);
   transform: scale(2.2);
-  rotate: 360deg;
+  transition: transform 0.5s ease;
   z-index: 10;
 }
 
@@ -254,13 +252,12 @@ img {
   border-radius: 10px;
   filter: contrast(90%);
   transform: scale(1);
-  rotate: 360deg;
 }
 
 .landscape-image:hover {
   filter: contrast(90%);
   transform: scale(2.5);
-  rotate: 360deg;
+  transition: transform 0.5s ease;
   z-index: 10;
 }
 
@@ -269,12 +266,42 @@ img {
   border-radius: 10px;
   filter: contrast(90%);
   transform: scale(1);
-  rotate: 360deg;
 }
 
 .islandtrip-image:hover {
   filter: contrast(90%);
   transform: scale(2.5);
-  rotate: 360deg;
+  transition: transform 0.5s ease;
   z-index: 10;
+}
+
+.call-to-action {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.call-to-action button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.call-to-action button:hover {
+  background-color: blue;
+  color: greenyellow;
 }
