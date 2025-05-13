@@ -4,6 +4,336 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <style>
+      body {
+        background-image: url("https://www.seabourn.com/content/sbn/us/en/cruise-destinations/caribbean-cruises/caribbean-ports/saline-bay-mayreau-st-vincent-and-the-grenadines-ma2/_jcr_content/root/container/hero/image.coreimg.jpeg/1533228274705/ma2-saint-vincent-and-grenadines-mayreau.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      header {
+        color: gold;
+        text-align: center;
+      }
+
+      h2 {
+        color: yellowgreen;
+      }
+
+      h3,
+      h4:hover {
+        background: white;
+        color: rgb(47, 64, 255);
+      }
+
+      hr {
+        opacity: 0.2;
+      }
+
+      a {
+        color: white;
+      }
+
+      footer {
+        text-align: center;
+        color: black;
+        margin-top: 60px;
+      }
+
+      .container {
+        margin: 0 auto 50px auto;
+        max-width: 550px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 30px;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+      }
+
+      .activites {
+        margin: 120px 0 30px 50px;
+        max-width: 400px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 30px;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+      }
+
+      .activites-two {
+        margin: 120px 0 30px 50px;
+        max-width: 400px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 30px;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+      }
+
+      .food {
+        margin: 120px 0 30px 50px;
+        max-width: 400px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 30px;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+      }
+
+      .landscape {
+        margin: 120px 0 30px 50px;
+        max-width: 300px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: 275px;
+        margin-bottom: 30px;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+      }
+
+      .page-layout {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+
+      .food,
+      .landscape {
+        width: 100%;
+        margin-left: 50px;
+      }
+
+      .food-landscape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        gap: 20px;
+      }
+
+      .right-side {
+        align-items: flex-end;
+      }
+
+      .left-side,
+      .right-side-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        width: 50%;
+      }
+
+      .activites,
+      .activites-two,
+      .food,
+      .landscape {
+        width: 100%;
+        flex-grow: 1;
+      }
+
+      .activites,
+      .activites-two,
+      .food,
+      .landscape,
+      .island-trip {
+        max-width: 400px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+      }
+
+      .left-side .activites,
+      .left-side .food .landscape {
+        margin-left: 50px;
+      }
+
+      .island-trip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 400px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+        margin: 50px auto 0 auto; /* Centers the box horizontally */
+      }
+
+      button {
+        display: block;
+        color: white;
+        background-color: gold;
+        font-size: 15px;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 15px;
+        box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+        margin-block-start: 3em;
+        margin-block-end: 3em;
+      }
+
+      img {
+        width: 150px;
+        margin: 0;
+        padding: 4px;
+        border-radius: 10px;
+      }
+
+      .media-row {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-items: center;
+        margin-top: 20px;
+        position: relative;
+        overflow: visible;
+      }
+      .botanic-gardens {
+        width: 130px;
+        border-radius: 10px;
+        filter: contrast(90%);
+        transform: scale(1);
+        z-index: 1;
+      }
+
+      .botanic-gardens:hover {
+        filter: contrast(90%);
+        transform: scale(2.5);
+        z-index: 10;
+        transition: transform 0.5s ease;
+      }
+
+      .video-inline {
+        width: fit-content; /* You can adjust to your needs */
+        height: 200px; /* Makes it square */
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto; /* Center it (optional) */
+      }
+
+      .video-inline:hover {
+        transform: scale(1.7);
+        z-index: 10;
+        transition: transform 0.5s ease;
+      }
+
+      .video-inline iframe {
+        width: 200px;
+        height: 100%;
+        border: none;
+        display: block;
+      }
+
+      .food-image {
+        width: 130px;
+        border-radius: 10px;
+        filter: contrast(90%);
+        transform: scale(1);
+      }
+
+      .food-image:hover {
+        filter: contrast(90%);
+        transform: scale(2.5);
+        transition: transform 0.5s ease;
+        z-index: 10;
+      }
+
+      .darkview-falls {
+        width: 130px;
+        border-radius: 10px;
+        filter: contrast(90%);
+        transform: scale(1);
+      }
+
+      .darkview-falls:hover {
+        filter: contrast(90%);
+        transform: scale(2.2);
+        transition: transform 0.5s ease;
+        z-index: 10;
+      }
+
+      .landscape-image {
+        width: 130px;
+        border-radius: 10px;
+        filter: contrast(90%);
+        transform: scale(1);
+      }
+
+      .landscape-image:hover {
+        filter: contrast(90%);
+        transform: scale(2.5);
+        transition: transform 0.5s ease;
+        z-index: 10;
+      }
+
+      .islandtrip-image {
+        width: 130px;
+        border-radius: 10px;
+        filter: contrast(90%);
+        transform: scale(1);
+      }
+
+      .islandtrip-image:hover {
+        filter: contrast(90%);
+        transform: scale(2.5);
+        transition: transform 0.5s ease;
+        z-index: 10;
+      }
+
+      .call-to-action {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .call-to-action button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 25px;
+        font-size: 16px;
+        border-radius: 30px;
+        border: none;
+        text-align: center;
+        background-color: gold;
+        color: black;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .call-to-action button:hover {
+        background-color: blue;
+        color: greenyellow;
+      }
+    </style>
     <title>Unforgettable Vaction</title>
   </head>
   <body>
@@ -287,5 +617,6 @@
         >Netlify</a
       >
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
